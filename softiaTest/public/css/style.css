@@ -1,0 +1,553 @@
+#descritpion {
+    top: 10%;
+    bottom: 10%;
+    right: 30px;
+}
+
+.newta-center {
+    text-align: center;
+    overflow: hidden;
+}
+
+.boxbox {
+    text-align: center !important;
+}
+.footer-bg {
+    background-color: #2F696D;
+}
+
+.msg-no-img {
+    color: red;
+    font-size: 30px;
+}
+
+/*Header*/
+.cat-block {
+    margin-left: 5%;
+    width: auto;
+}
+
+.logo {
+    padding: 20px;
+    border-radius: 100px;
+    background-color: white;
+}
+
+.nav-bg {
+    width: 80%;
+    display: flex;
+    background-color: white;
+}
+
+#app, .bg-my {
+    background-color: #2F696D;
+}
+
+.dropdown_menu:hover .dropdown_content {
+    background-color: white;
+    display: block;
+}
+
+.dropdown_menu {
+    text-align: center;
+    padding-bottom: 12px;
+    margin-top: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown_content {
+    margin-top: 12px;
+    position: absolute;
+    display: none;
+    background-color: white;
+    z-index: 1;
+}
+
+.dropdown_content a {
+    padding: 0 12px;
+    text-decoration: none;
+    color: #2F696D;
+}
+
+.dropdown_content a:hover {
+    color: gray;
+}
+
+.dropdown_button, .nav-button {
+    border: 0;
+    background-color: white;
+    padding: 12px;
+    border-right: solid 2px #2F696D;
+}
+
+.nav-button {
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+/*Nouveau*/
+.e-mess {
+    color: red;
+    display: block;
+    font-size: 12px;
+}
+
+.wc {
+    color: white;
+}
+
+.brc {
+    background-color: rgb(206, 34, 34);
+    padding: 4px;
+}
+
+.wc:hover {
+    color: white;
+}
+
+.img-zoom b {
+    position: relative;
+    right: 10px;
+    bottom: 15px;
+    color: red;
+}
+
+.petit_logo {
+    height: 60px;
+}
+
+.tres_moyen_logo {
+    height: 40px;
+}
+
+.tres_petit_logo {
+    height: 13px;
+    margin-right: 5px;
+}
+
+.petit_mot {
+    font-size: 20px;
+}
+
+.bg-black {
+    background-color: #333;
+}
+
+.nav-item .nav-link {
+    color: white;
+    font-size: 17px;
+}
+
+.custom-file-input::-webkit-file-upload-button {
+    visibility: hidden;
+}
+
+.custom-file-input::before {
+    content: 'Select some files';
+    display: inline-block;
+    background: -webkit-linear-gradient(top, #f9f9f9, #e3e3e3);
+    border: 1px solid #999;
+    border-radius: 3px;
+    padding: 5px 8px;
+    outline: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    text-shadow: 1px 1px #fff;
+    font-weight: 700;
+    font-size: 10pt;
+}
+
+.custom-file-input:hover::before {
+    border-color: black;
+}
+
+.custom-file-input:active::before {
+    background: -webkit-linear-gradient(top, #e3e3e3, #f9f9f9);
+}
+
+.login {
+    height: 100%;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.images {
+    height: 120%;
+    background: ivory;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+.float-r {
+    float: right;
+}
+/*Profile*/
+
+.center {
+    display: block;
+    margin: 20px auto;
+}
+
+.padpad {
+    padding: 15px 30px;
+}
+
+.displayb {
+    justify-content: center;
+}
+
+.displayb .dropdown-toggle {
+    border: 0;
+    color: whitesmoke;
+    background: 0;
+}
+
+#showform, #showform2, #showform3, #showform4 {
+    display: none;
+    width: 110%;
+    margin-left: -50px;
+}
+
+.dropdown {
+    display: block;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:focus-within .dropdown-content {
+    display: block;
+}
+
+/*Ancien*/
+main {
+    position: relative;
+    width: 100%;
+}
+
+.title {
+    background: ivory;
+    padding: 30px 0;
+    font: 700 40px/1 "Orbitron";
+    color: gray;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*login register reset*/
+
+.containere {
+    background: rgba(0, 44, 69, 0.7);
+    border: 2px solid rgb(10, 86, 136);
+}
+
+.containere label {
+    color: #00edff;
+}
+
+.containere input {
+    box-sizing: border-box;
+    padding: 0 10px;
+    line-height: 30px;
+    border: 1px solid rgba(0, 44, 69, 0.6);
+    background-color: rgba(0, 0, 0, 0.35);
+    color: #00b7ca;
+}
+
+.containere input:focus {
+    border: 1px solid #00b7ca;
+}
+
+.submit,  .del-button {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.submit input, .cata-but, .field-admin button {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(0, 44, 69, 0.6);
+    border: 2px solid rgb(10, 86, 136);
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.del-but {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(187, 24, 24, 0.684);
+    border: 2px solid rgb(153, 19, 19);
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.del-but:hover {
+    background: rgb(190, 23, 23);
+}
+
+.submit input:hover, .cata-but:hover {
+    background: #2F696D;
+}
+
+.field-admin button:hover {
+    background: #2F696D;
+    color: white;
+}
+
+.bot {
+    font-size: 13px;
+    margin-top: 25px;
+}
+
+.bot a {
+    color: #2e9ecc;
+}
+
+/*footer*/
+
+footer {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+footer ul {
+    margin-right: 50px;
+}
+
+footer li {
+    display: inline;
+    padding-left: 10px;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+    transition: all 0.8s;
+    margin: 5px;
+}
+
+footer img:hover {
+    transform: scale(1.30);
+}
+
+/*catalogue*/
+.line {
+    display: flex;
+    flex-wrap: wrap;
+}
+.block {
+    padding: 1% 4%;
+    margin: 10px;
+    background: white;
+    /*border: 2px solid rgb(10, 86, 136);*/
+}
+
+.c-button {
+    text-align: center;
+}
+
+.c-button, .l-button, .disa-button {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: rgba(2, 79, 124, 0.6);
+    border: 2px solid rgb(10, 86, 136);
+    font-size: 15px;
+    border-radius: 5px;
+    transition: 0.8s;
+}
+
+.c-button, .l-button {
+    transition: 0.5s;
+    color: #f0f1f4;
+}
+
+.c-button:hover, .l-button:hover {
+    background: #005da6;
+}
+
+.mody-but {
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+    border-radius: 5px;
+    background: rgba(209, 111, 31, 0.684);
+    border: 2px solid rgb(153, 79, 19);
+    color: white;
+    border-radius: 5px;
+    transition: 0.4s;
+}
+
+.mody-but:hover {
+    background: rgb(201, 106, 29);
+}
+
+.block h2 {
+    color: #00edff;
+    text-align: center;
+}
+
+.ta-center img {
+    height: 22vh;
+    transition: 0.8s;
+    width: 22vh;
+    margin-left: -9px;
+}
+
+.ta-center {
+    text-align: center;
+    overflow: hidden;
+}
+
+.block:hover .ta-center img {
+    transform: scale(1.10);
+}
+
+.block .b2 {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.moving {
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-width: 1px 0 0 1px;
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-color: #00edff;
+    border-style: solid;
+    transition-duration: 5s;
+    transform: translateZ(0);
+}
+
+.fullwidth:hover .moving {
+    left: 90%;
+    top: 90%;
+    transform: translate(-90%, -90%)
+}
+
+/*produit*/
+
+.d-grid {
+    display: grid;
+}
+
+.produit {
+    display: grid;
+    background: rgba(0, 44, 69, 0.6);
+    padding: 2% 5%;
+    width: 50%;
+    margin: auto;
+    color: white;
+}
+
+.produit label {
+    margin-top: 15px;
+}
+
+.produit button {
+    max-width: 200px;
+    margin: auto;
+}
+
+.produit h2 {
+    color: #00edff;
+}
+
+.produit img {
+    display: block;
+    margin: auto;
+    text-align: center;
+    width: 35vh;
+    height: 35vh;
+}
+
+/*admin*/
+
+.admin {
+    margin: 50px auto;
+    width: 500px;
+}
+
+.addCat {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.admin #img {
+    text-align: center;
+}
+
+.field-admin {
+    color: #2F696D;
+    text-align: center;
+    background: white;
+    border: 2px solid black;
+    padding: 20px 50px;
+}
+
+.field-admin select {
+    text-align: center;
+    font-size: 17px;
+}
+
+.field-admin option {
+    color: black;
+}
+
+.field-admin input, .field-admin textarea, .field-admin button, .field-admin select {
+    margin: 5px auto 15px;
+    display: block;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    color:  #2F696D;
+    transition: 0.8s;
+}
+.field-admin button {
+    width: 50%;
+}
+.field-admin input:focus, .field-admin textarea:focus {
+    border: 1px solid #2F696D;
+}
+
+.field-admin button {
+    color: #2F696D;
+    padding: 10px;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+#post-background {
+    position: absolute;
+    background: url('../img/post-background.png') no-repeat center 150px;
+    background-size:cover;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.wrapper {
+    z-index: 20;
+    position: relative;}
